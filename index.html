@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Directory</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Employee Directory</h1>
+
+  <input type="text" id="search" placeholder="Search by name or email">
+
+  <div id="sort-controls">
+    <label for="sort-name">Sort by First Name:</label>
+    <select id="sort-name">
+      <option value="">None</option>
+      <option value="asc">A → Z</option>
+      <option value="desc">Z → A</option>
+    </select>
+
+    <label for="sort-dept">Sort by Department:</label>
+    <select id="sort-dept">
+      <option value="">None</option>
+      <option value="asc">A → Z</option>
+      <option value="desc">Z → A</option>
+    </select>
+  </div>
+
+  <div id="employee-list">
+    <div class="employee-card">
+      <p><strong>ID:</strong> 1</p>
+      <p class="name"><strong>Name:</strong> John Doe</p>
+      <p><strong>Email:</strong> john.doe@example.com</p>
+      <p class="dept"><strong>Department:</strong> Engineering</p>
+      <p><strong>Role:</strong> Developer</p>
+      <button>Edit</button>
+      <button>Delete</button>
+    </div>
+
+    <div class="employee-card">
+      <p><strong>ID:</strong> 2</p>
+      <p class="name"><strong>Name:</strong> Jane Smith</p>
+      <p><strong>Email:</strong> jane.smith@example.com</p>
+      <p class="dept"><strong>Department:</strong> Design</p>
+      <p><strong>Role:</strong> UI/UX Designer</p>
+      <button>Edit</button>
+      <button>Delete</button>
+    </div>
+  </div>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

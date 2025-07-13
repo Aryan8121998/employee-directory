@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+h1 {
+  text-align: center;
+}
+#search {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 60%;
+}
+.employee-card {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  width: 60%;
+  border-radius: 5px;
+}
+.employee-card p {
+  margin: 5px 0;
+}
+button {
+  margin-right: 10px;
+}
+form {
+  width: 60%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
