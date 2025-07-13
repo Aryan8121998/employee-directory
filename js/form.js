@@ -1,3 +1,14 @@
+window.addEventListener("DOMContentLoaded", function () {
+  const data = JSON.parse(localStorage.getItem("editEmployee"));
+  if (data) {
+    document.getElementById("firstName").value = data.firstName || "";
+    document.getElementById("email").value = data.email || "";
+    document.getElementById("department").value = data.department || "";
+    document.getElementById("role").value = data.role || "";
+  }
+});
+
+
 document.getElementById("employee-form").addEventListener("submit", function (e) {
   e.preventDefault();
   const firstName = document.getElementById("firstName").value.trim();
