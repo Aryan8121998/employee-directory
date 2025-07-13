@@ -43,3 +43,8 @@ input {
   padding: 8px;
   margin-top: 5px;
 }
+#pagination-controls button {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+}
